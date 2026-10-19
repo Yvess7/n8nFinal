@@ -8,6 +8,8 @@ n8n es una herramienta para automatizar tareas conectando aplicaciones entre sí
 
 Este proyecto es un workflow ya armado, que se importa desde el archivo `ProyectoFinal_MCP.json`.
 
+[1](1.png)
+
 ## Qué hace este workflow
 
 ```
@@ -18,6 +20,8 @@ Schedule Trigger → Get row(s) → AI Agent (Gemini + GitHub MCP) → Hay cambi
 2. Lee de una tabla la fecha de la última revisión.
 3. El agente de IA consulta en GitHub los commits posteriores a esa fecha y redacta el reporte.
 4. Si hay commits nuevos, envía el reporte por Telegram y guarda la fecha de esta revisión. Si no los hay, no envía nada.
+
+[2][2.png]
 
 ## Requisitos
 
